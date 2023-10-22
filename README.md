@@ -16,8 +16,8 @@ redux-thunk: for handling asynchronous actions in Redux.
 
 The core functionality of this project involves displaying data from a provided API, including the following university details:
 
-University Name
-Country
+University Name,
+Country,
 Website
 
 
@@ -25,8 +25,8 @@ Website
 
 Users have the ability to perform various operations on the list of universities, including:
 
-Add New University
-Edit University
+Add New University,
+Edit University,
 Delete University
 
 
@@ -34,6 +34,6 @@ Delete University
 
 In addition to the core functionality, this project also offers the following features:
 
-Data Filtering
-Pagination
-Dynamic Background color
+Data Filtering,
+Pagination,
+Dynamic Background color 
