@@ -1,0 +1,34 @@
+{
+  "universities": [
+    {
+      "id": 1,
+      "university": "Jamia",
+      "country": "India",
+      "website": "https://jamiahamdard.edu/"
+    },
+    {
+      "id": 2,
+      "university": " Amity",
+      "country": "India",
+      "website": "https://amity.edu/"
+    },
+    {
+      "newUniversity": "Amity University",
+      "newCountry": "India",
+      "newWebsite": "http://amity.edu",
+      "id": 6
+    },
+    {
+      "newUniversity": "Jamia Milia",
+      "newCountry": "India",
+      "newWebsite": "http://jamia.milia.edu",
+      "id": 8
+    },
+    {
+      "newUniversity": "Himalayan University",
+      "newCountry": "India",
+      "newWebsite": "http://himalayan.edu",
+      "id": 9
+    }
+  ]
+}

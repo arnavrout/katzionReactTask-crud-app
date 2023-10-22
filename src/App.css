@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.home {
+  background: #F7FAD1;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #0C81F6;
+  padding: 20px;
+  text-align: left;
+}
+
+.menu {
+  border: 1px solid none;
+  margin-right: 15px;
+  padding: 10px;
+  font-weight: 600;
+  box-shadow: 5px 5px 5px rgba(0.5, 0.5, 0.5, 0.5);
+  transition: background-color 0.3s; 
+}
+
+.menu:hover {
+  color: #0C81F6 !important;
+  background: #fff;
+}
+
+a {
+  text-decoration: none !important;
+  color: #F7FAD1 !important;
+  padding: 2px;
+ 
+}
+
+.card-body {
+  width: 90%;
+  margin: 0 auto; /* Center-align the table */
+}
+
+.university-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.university-table th, .university-table td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 8px;
+}
+
+.university-table tbody {
+  margin-top: 40px;
+}
+
+.card-header div {
+  width: 90%;
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.addUniversity {
+  background: #0C81F6;
+  padding: 8px 12px;
+}
+
+.actions Link {
+  padding: 5px 0 !important;
+}
+
+.edit-button,
+.delete-button {
+  display: inline-block;
+  width: 65px; /* Adjust the width as needed */
+  text-align: center;
+  line-height: 40px; /* Center the text vertically */
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.edit-button {
+  background-color: green;
+  color: white;
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 2px 2px !important;
+}
+
+.search-box {
+  margin-bottom: 20px; /* Add some spacing below the search box */
+}
+
+.search-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.search-box input::placeholder {
+  color: #999;
+  /* font-style: italic; */
+}
+
+/* Optional: Style the input on focus */
+.search-box input:focus {
+  outline: none;
+  border-color: #007bff; /* Change the border color on focus */
+}
+
+
+/* CSS for ADD and UPDATE University Form */
+/* Add this CSS to your stylesheets */
+
+.add-university-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.addUniversityHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addUniversityBody {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addUniversityBody input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addUniversityFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.addUniversityFooter button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 13px 23px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.addUniversityFooter button:hover {
+  background-color: #0056b3;
+}
+
+.addUniversityFooter a {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addUniversityFooter a:hover {
+  background-color: #0056b3;
+}
+
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 5px 10px;
+  margin: 0 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+.active {
+  background-color: blue;
+  color: white;
+}
