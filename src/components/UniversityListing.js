@@ -21,7 +21,6 @@ function UniversityListing(props) {
   const [backgroundColor, setBackgroundColor] = useState('#ffffff'); // Default background color
   const maxRecentColors = 5; // Maximum number of recent colors to store
 
-
   //Fetching the provided (University) API data
   useEffect(() => {
     axios.get('http://universities.hipolabs.com/search?country=United+States')
@@ -53,7 +52,6 @@ function UniversityListing(props) {
 
    const startingPage = Math.max(currentPage - displayedPages + 1, 1);
 
-
   // Filtering universities based on search query
   const filteredUniversities = combinedData.filter((universityData) => {
   const universityName = (universityData && (universityData.university || universityData.name)) || ''; // Check if universityData is defined
@@ -66,10 +64,8 @@ function UniversityListing(props) {
   
   //Handle background colors on every refresh
   useEffect(() => {
-    //here we are getting the list of colors we used recently
     const recentColors = JSON.parse(localStorage.getItem('recentColors')) || [];
 
-    // Total available colors we have to display
     const availableColors = ['#B7FBFF', '#FFF6BE', '#FFE0A3', '#FFA1AC', '#F688BB', '#E8F9E9', '#BAF1A1', '#9DE3D0', '#F98B60', 'FFF6F4'];
 
     // Function to generate a random color that is not in recentColors

@@ -16,6 +16,7 @@ function UpdateUser() {
     //using useSelector to access our state
     const universitiesObj = useSelector((state) => state.universities.universitiesObj)
     
+    //To handle new university form submit
     const handleSubmit = (event) => {
         event.preventDefault();
         const universitiesObj = {newUniversity, newCountry, newWebsite};
