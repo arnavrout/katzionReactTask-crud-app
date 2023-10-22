@@ -46,7 +46,7 @@ a {
 
 .card-body {
   width: 90%;
-  margin: 0 auto; /* Center-align the table */
+  margin: 0 auto;
 }
 
 .university-table {
@@ -84,9 +84,9 @@ a {
 .edit-button,
 .delete-button {
   display: inline-block;
-  width: 65px; /* Adjust the width as needed */
+  width: 65px;
   text-align: center;
-  line-height: 40px; /* Center the text vertically */
+  line-height: 40px;
   border: none;
   cursor: pointer;
   font-weight: bold;
@@ -106,7 +106,7 @@ a {
 }
 
 .search-box {
-  margin-bottom: 20px; /* Add some spacing below the search box */
+  margin-bottom: 20px;
 }
 
 .search-box input {
@@ -118,19 +118,15 @@ a {
 
 .search-box input::placeholder {
   color: #999;
-  /* font-style: italic; */
 }
 
-/* Optional: Style the input on focus */
 .search-box input:focus {
   outline: none;
-  border-color: #007bff; /* Change the border color on focus */
+  border-color: #007bff;
 }
 
 
 /* CSS for ADD and UPDATE University Form */
-/* Add this CSS to your stylesheets */
-
 .add-university-form {
   max-width: 400px;
   margin: 0 auto;
